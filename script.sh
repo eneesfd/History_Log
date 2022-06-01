@@ -53,11 +53,6 @@ else
     #PROMPT_COMMAND='history -a'
 fi
 sleep 1
-#cat /dev/null > ~/.bash_history #History i sıfırlıyor.
-history -c
-history -w
+cat /dev/null > ~/.bash_history #History i sıfırlıyor.
 PROMPT_COMMAND='history -a'
 done
-
-#dsafsafasfasfasfsafasfasfasfasfasfas
-#enesfurkandaaaa
